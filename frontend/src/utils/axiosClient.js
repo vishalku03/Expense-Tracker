@@ -7,7 +7,7 @@
 import axios from "axios";
 
 export const axiosClient = axios.create({
-  baseURL: "http://localhost:5000/api", // backend URL
+  baseURL: "https://expense-tracker-backend-1yjy.onrender.com", // backend URL
 });
 
 // Automatically include JWT token from localStorage
