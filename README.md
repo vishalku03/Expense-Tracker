@@ -2,11 +2,7 @@ Expense Tracker - Using  MERN Stack :-
 
 Expense Tracker is a full-stack web application built with the MERN (MongoDB, Express, React, Node.js) stack that allows users to efficiently manage and track their personal expenses. Users can add, update, and delete transactions, view monthly expense summaries, and gain insights into their spending habits.
 
-<<<<<<< HEAD
 Key Features:-
-=======
-Tech Stack : - 
->>>>>>> 1d2bd598f69714c58fd6777c9219ebb94be8ab5f
 
 Add Transactions: Easily record income and expenses with categories, amounts, and dates.
 
@@ -34,11 +30,6 @@ Other Tools: CORS, dotenv for environment variables
 
 Project Highlights:-
 
-<<<<<<< HEAD
-Full-stack implementation with React frontend and Node.js/Express backend
-
-Efficient state management using React hooks (useState, useEffect)
-=======
 1. Cloning the Project : - 
 >>>>>>> 1d2bd598f69714c58fd6777c9219ebb94be8ab5f
 
