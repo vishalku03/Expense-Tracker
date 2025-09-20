@@ -2,7 +2,7 @@ Expense-Tracker:-
 
 A fully-featured Expense Tracker WebApp built with the MERN stack. Track your daily expenses, categorize them, and visualize your spending habits in a sleek and responsive interface.
 
-Tech Stack
+Tech Stack : - 
 
 Backend
 <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" />
@@ -56,18 +56,19 @@ Expense-Tracker-MERN/
 
 Go to the GitHub repository:
 
-https://github.com/vishalku03/Expense-Tracker-MERN.git
+https://github.com/vishalku03/Expense-Tracker.git
 
 
 Copy the repository URL.
 
 Open a terminal and run:
 
-git clone https://github.com/vishalku03/Expense-Tracker-MERN.git
+git clone https://github.com/vishalku03/Expense-Tracker.git
+
 cd Expense-Tracker
 
 2. Installing Dependencies
-Backend
+Backend : - 
 cd bc
 npm install
 
@@ -171,5 +172,6 @@ Open a Pull Request
 This project is licensed under MIT License.
 
 ✅ Data Flow in Production:
+
 
 [React Frontend on Vercel] → [Express Backend on Render] → [MongoDB Atlas]
