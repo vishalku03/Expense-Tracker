@@ -35,23 +35,6 @@ RESTful API with Node.js and Express
 
 MongoDB Atlas for secure cloud storage
 
-Folder Structure
-Expense-Tracker-MERN/
-├── backend/           # Node.js & Express server
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── index.js
-│   └── .env
-├── frontend/          # React frontend
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── App.js
-│   │   └── index.js
-│   └── package.json
-└── README.md
-
 1. Cloning the Project : - 
 
 Go to the GitHub repository:
@@ -175,3 +158,4 @@ This project is licensed under MIT License.
 
 
 [React Frontend on Vercel] → [Express Backend on Render] → [MongoDB Atlas]
+
