@@ -1,175 +1,73 @@
-Expense-Tracker:-
+Expense Tracker - Using  MERN Stack :- 
 
-A fully-featured Expense Tracker WebApp built with the MERN stack. Track your daily expenses, categorize them, and visualize your spending habits in a sleek and responsive interface.
+Expense Tracker is a full-stack web application built with the MERN (MongoDB, Express, React, Node.js) stack that allows users to efficiently manage and track their personal expenses. Users can add, update, and delete transactions, view monthly expense summaries, and gain insights into their spending habits.
 
-Tech Stack
+Key Features:-
 
-Backend
-<img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" />
-<img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white" />
+Add Transactions: Easily record income and expenses with categories, amounts, and dates.
 
-Frontend
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
-<img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
+View Summary: Get a clear monthly overview of total expenses and income.
 
-Database
-<img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"/>
+Edit & Delete: Modify or remove transactions anytime.
 
-Live Demo:
+Send Monthly Report via Email: Automatically receive a summary of your expenses.
 
-Frontend: Vercel Link - expense-tracker-web-opal.vercel.app/
+Responsive Design: Works seamlessly on desktop, tablet, and mobile devices.
 
-Backend: Render Link
+Secure & Scalable: Backend hosted on Render, frontend on Vercel, and all data stored securely in MongoDB Atlas.
 
-Features : - 
+Tech Stack:-
 
-Add, edit, and delete transactions
+Frontend: React, HTML, CSS, JavaScript
 
-Track monthly expenses and income
+Backend: Node.js, Express.js
 
-Categorize expenses (Food, Rent, Utilities, etc.)
+Database: MongoDB Atlas
 
-Responsive UI with React & Tailwind CSS
+Deployment: Frontend on Vercel, Backend on Render
 
-RESTful API with Node.js and Express
+Other Tools: CORS, dotenv for environment variables
 
-MongoDB Atlas for secure cloud storage
+Project Highlights:-
 
-Folder Structure
-Expense-Tracker-MERN/
-├── backend/           # Node.js & Express server
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── index.js
-│   └── .env
-├── frontend/          # React frontend
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── App.js
-│   │   └── index.js
-│   └── package.json
-└── README.md
+Full-stack implementation with React frontend and Node.js/Express backend
 
-1. Cloning the Project : - 
+Efficient state management using React hooks (useState, useEffect)
 
-Go to the GitHub repository:
+Modular and reusable components for UI scalability
 
-https://github.com/vishalku03/Expense-Tracker-MERN.git
+RESTful API design for smooth client-server communication
+
+Deployed with live links for instant access and testing
+
+Live Demo  
+
+Frontend  - Vercel
+
+Backend (Render): [Backend Link]
+
+Getting Started (Clone & Run Locally)
+
+Clone the repository:
+
+git clone https://github.com/vishalku03/Expense-Tracker.git
 
 
-Copy the repository URL.
+Install dependencies for backend:
 
-Open a terminal and run:
-
-git clone https://github.com/vishalku03/Expense-Tracker-MERN.git
-cd Expense-Tracker
-
-2. Installing Dependencies
-Backend
 cd bc
 npm install
 
-Frontend
-cd ../frontend
+
+Install dependencies for frontend:
+
+cd frontend
 npm install
 
-3. Configuring Environment Variables
-Backend (bc/.env)
-MONGO_URI=<YOUR_MONGO_URI>
-PORT=5000
 
+Set up your .env file for MongoDB Atlas connection and other environment variables.
 
-Get MONGO_URI by creating a free cluster on MongoDB Atlas.
+Run backend and frontend servers:
 
-Frontend (frontend/.env) – optional for local development
-REACT_APP_API_URL=http://localhost:5000
-
-
-In production, replace with your Render backend URL:
-
-REACT_APP_API_URL=https://expense-tracker-backend.onrender.com
-
-4. Running Locally
-Backend
-cd bc
-npm run server
-
-
-Server runs at http://localhost:5000.
-
-Frontend
-cd ../frontend
-npm start
-
-
-React app runs at http://localhost:3000.
-
-5. Deployment
-Backend on Render
-
-Push backend code to GitHub.
-
-Create a Web Service on Render → select your backend repo.
-
-Set Environment Variables:
-
-MONGO_URI=<MongoDB Atlas URI>
-PORT=5000
-
-
-Start Command: npm start
-
-Render provides a live backend URL (e.g., https://expense-tracker-backend.onrender.com).
-
-Frontend on Vercel :-
-
-Push frontend code to GitHub.
-
-Create a new project on Vercel → select frontend repo/folder.
-
-Set Environment Variable:
-
-REACT_APP_API_URL=https://expense-tracker-backend.onrender.com
-
-
-Vercel automatically builds and deploys → provides a live frontend URL (e.g., https://track-yur-expense.vercel.app).
-
-6. MongoDB Atlas :-
-
-Cloud-hosted database; all your expense data is stored here.
-
-Backend communicates with Atlas via MONGO_URI.
-
-Secure access with users, passwords, and IP whitelisting.
-
-Data is safe even if frontend or backend is redeployed.
-
-7. CORS Setup:-
-
-Ensure backend allows requests from your frontend domain:
-
-app.use(cors({
-  origin: 'https://track-yur-expense.vercel.app'
-}));
-
-8. Contributing:-
-
-Fork the repository
-
-Create a branch (git checkout -b feature/YourFeature)
-
-Commit changes (git commit -m 'Add feature')
-
-Push branch (git push origin feature/YourFeature)
-
-Open a Pull Request
-
-9. License
-
-This project is licensed under MIT License.
-
-✅ Data Flow in Production:
-
-[React Frontend on Vercel] → [Express Backend on Render] → [MongoDB Atlas]
+npm start   # backend
+npm start   # frontend
